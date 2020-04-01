@@ -15,10 +15,10 @@ public class BaseMain {
     public static void main(String[] args) {
 
         LetterCombinations ls = new LetterCombinations();
-        List<String> dd = ls.reslove("234");
-        for (String str : dd) {
+        //List<String> dd = ls.reslove("234");
+        /*for (String str : dd) {
             System.out.print(str + "  ");
-        }
+        }*/
     }
 
 }
