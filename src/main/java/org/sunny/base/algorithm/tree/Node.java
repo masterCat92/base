@@ -43,4 +43,12 @@ public class Node<T> {
     public void setRightChild(Node<T> rightChild) {
         this.rightChild = rightChild;
     }
+
+    public boolean hasLeft() {
+        return leftChild != null;
+    }
+
+    public boolean hasRight() {
+        return rightChild != null;
+    }
 }
